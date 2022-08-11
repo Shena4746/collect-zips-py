@@ -81,7 +81,7 @@ Locate the python interpreter at {project-top}/.venv. Then let poetry perform a 
 
 ```bash
 python3 -m venv .venv
-poetry install
+poetry install --no-dev
 ```
 
 Make sure that poetry uses the intended python interpreter.
