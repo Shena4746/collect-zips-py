@@ -42,7 +42,13 @@ python /path/to/colzips.py ./sample/ -d ./sample/
 
 since it searches files recursively.
 
-If you would like to move zip files instead of copying them, simply add `-m` option. For more (nothing much) information, run
+If you would like to move zip files instead of copying them, simply add `-m` option.
+
+```bash
+python /path/to/colzips.py ./sample/ -d ./sample/ -m
+```
+
+For more (nothing much) information, run
 
 ```bash
 python /path/to/colzips.py --help
